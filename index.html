@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/03c630e79d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="https://images-platform.99static.com/ky8wEq_DEdvfN0l2lmUSfuVYL0g=/0x0:2000x2000/500x500/top/smart/99designs-contests-attachments/107/107446/attachment_107446690" class="logo">
+        <ul id="sidemenu">
+          <li>
+            <a href="#header">Home</a>
+            <a href="#about">About </a>
+            <a href="#portfolio">Work</a>
+            <a href="#contact">Contact me</a>
+          </li>
+          <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+
+      <div class="header-text">
+        <p>Web Developer / Problem Solver</p>
+        <h1>Hi, I'm <span>Aryash Sitholiwal</span> , a 3rd year BTech student from NIT Silchar.</h1>
+      </div>
+    </div>
+  </div>
+  
+<!-- about -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+             <img src="Photos\aryash.png.jpeg" alt="">
+        </div>
+        <div class="about-col-2">
+           <h1 class="sub-title">About Me</h1>
+           <p>A platform which give me a chance to exploit my extreme interest in the field of Software Development, fulfill my desire to do something out of the box, explore my talent and showcase my skills properly. I'm coding enthusiastic and always try to explore,learn something new skills.
+
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+              <p class="tab-links " onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('achivement')">Achivement</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="education">
+              <ul>
+                <li><span>National Insitute of Technology</span><br>Electronics and Instrumentation Engineering <br>BTech  CGPA: 8.9 -- 2020-2024</li>
+                <br>
+                <li><span>Govt. Vocational Sr. Sec. School</span><br>12th  <br>percentage: 92.80% -- 2018-2019</li>
+                <br>
+                <li><span>BSN School</span><br>10th <br>percentage: 93.67% -- 2016-2017</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="skills">
+              <ul>
+                <li><span>Languages: </span> c , c++ , HTML , CSS , JavaScript , SQL</li>
+                <li><span> Frameworks: </span> Nodejs , Bootstrap</li>
+                <li><span>Subjects :</span> DSA , OS , OOPs , CN</li>
+                <li> <span>Operating System </span> Windows , Linux</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="achivement">
+              <ul>
+                <li>450+ problem solved on DSA at Leetcode as well as 200+ at GFG.</li>
+                <li>Data Structure and Algorithm by Udemy.</li>
+                <li>Frontent web development by Udemy.</li>
+                <li> 1567 Highest rank at Codechef.</li>
+                <li> 5 star in c,c++ and sql at hackerrank.</li>
+              </ul>
+            </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- portfolio -->
+
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="Photos/sound-studio-room-drum-kit-music-rehearsal-space-musical-equipment-120457164.jpg" alt="">
+            <div class="layer">
+              <h3>Musical Band Webpage</h3>
+              <p>This is the demo version of musical band in which person can play with instruments and play a sound with keyboard as well as touch this on screen .
+                Tech : HTML, CSS , JavaScript</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+        <div class="work">
+          <img src="https://www.softaox.info/wp-content/uploads/2019/08/jQuery-Plugin-For-Displaying-Real-Time-Weather-Conditions-2.jpg" alt="">
+          <div class="layer">
+            <h3>Open Weather Webpage</h3>
+            <p>Created a website for finding a weather  in which any person can find a weather using a cordinate of it's loacation.
+              Tech : HTML , CSS , JavaScript , REST API. </p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+
+  <!-- contact -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>contact@aryashsaxena6@gmail.com</p>
+          <p><i class="fa-sharp fa-solid fa-circle-phone"></i>+91-7597586664</p>
+          <div class="social-icons">
+            <a href="https://leetcode.com/aryash_3161/" target="_blank" rel="noopener noreferrer">LeetCode<img src="https://leetcode.com/_next/static/images/logo-ff2b712834cf26bf50a5de58ee27bcef.png" alt="" class="logo"></a>
+            <!-- <a href="https://leetcode.com/aryash_3161/" >LeetCode<img src="https://leetcode.com/_next/static/images/logo-ff2b712834cf26bf50a5de58ee27bcef.png" alt="" class="logo"></a> -->
+            <a href="https://auth.geeksforgeeks.org/user/aryashsaxena0/practice">GFG<img src="https://media.geeksforgeeks.org/wp-content/uploads/20200716222246/Path-219.png" alt="" class="logo"></a>
+          </div>
+          <a href="Aryash_Sitholiwal_CV (2).pdf" download class="btn btn2">Download CV</a>
+        </div>
+      
+        <div class="contact-right">
+             <form >
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email " required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+             </form>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
